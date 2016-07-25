@@ -1,0 +1,61 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="css/login.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no,minimum-scale = 1.0,maximum-scale = 1.0,user-scalable = no">
+
+
+</head>
+<body>
+
+
+<p class="login-logo"><img src="image/logo.png" width="100%"></p>
+<div id="form-div">
+    <form class="form" id="form1" action="Login.php" method="post"> 
+      <div style="text-align:center;color:#F36;text-shadow: 0.3px 0.3px 0.3px #111;font-weight:bold;">【入力内容に誤りがあります】</div>
+      <p class="id">
+        <input name="user_id" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="ID" id="id" /><br>
+       <br>
+      </p>
+      
+      <p class="pass">
+        <input name="password" type="password" class="validate[required,custom[email]] feedback-input" id="pass" placeholder="Password" /><br>
+        <span class="etext">&#8251;パスワードが未入力</span>
+      </p>
+     
+      
+      
+      
+        <p>
+        <input  type="submit" value="Login" id="button-blue"/><br>
+        
+        </p>
+        <p class="newRg"><a href="Register.html">新規登録はこちら▼</a></p>
+        
+      
+    </form>
+</div>
+
+  <!-- jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+<script type="text/javascript">
+window.onorientationchange = function () {
+ switch ( window.orientation ) {
+  case 0:
+   break;
+  case 90:
+   alert('このアプリは画面を縦にしてお使いください。');
+   break;
+  case -90:
+   alert('このアプリは画面を縦にしてお使いください。');
+   break;
+ }
+}
+</script>
+  
+</body>
+</html>

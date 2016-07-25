@@ -1,0 +1,68 @@
+
+/* latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Montserrat-Regular'), url(http://fonts.gstatic.com/s/montserrat/v6/zhcz-_WihjSQC0oHJ9TCYAzyDMXhdD8sAj6OAJTFsBI.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+/* latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Montserrat-Bold'), url(http://fonts.gstatic.com/s/montserrat/v6/IQHow_FEYlDC4Gzy_m8fcmaVI6zN22yiurzcBKxPjFE.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+input[type="submit"] {
+  -webkit-appearance: none;
+}
+html{    background:url(../image/back.jpg) no-repeat;
+  background-size: cover;
+  height:100%;
+  
+}
+
+.login-logo{
+
+	width:600px;
+	margin:5% auto 10% auto;
+	text-align:center;
+}
+
+
+#form-div {
+	
+	
+	width:600px;
+	margin:0 auto;
+	
+
+ 	
+	
+  　　-moz-border-radius: 7px;
+  　　-webkit-border-radius: 7px;
+
+
+	padding-left: 3%;
+	padding-right: 3%;
+}
+
+
+
+p.errorLeft{
+	font-family:Avenir , "Open Sans" , "Helvetica Neue" , Helvetica , Arial , Verdana , Roboto , "游ゴシック" , "Yu Gothic" , "游ゴシック体" , "YuGothic" , "ヒラギノ角ゴ Pro W3" , "Hiragino Kaku Gothic Pro" , "Meiryo UI" , "メイリオ" , Meiryo , "ＭＳ Ｐゴシック" , "MS PGothic" , sans-serif;
+	color:#fff;
+	width:70%;
+	font-size:20px;
+	text-shadow: 1px 1px 2px #666;  
+	float:left;
+}
+p.errorLeft a:visited,a:link{
+	color:#fff;
+}
+p.errorRight{
+	width:25%;
+	float:right;
+}

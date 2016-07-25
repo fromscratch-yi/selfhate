@@ -1,0 +1,253 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html{
+	font-family:Avenir , Open Sans , Helvetica Neue , Helvetica , Arial , Verdana , Roboto , 游ゴシック , Yu Gothic , 游ゴシック体 , YuGothic , ヒラギノ角ゴ Pro W3 , Hiragino Kaku Gothic Pro , Meiryo UI , メイリオ , Meiryo , ＭＳ Ｐゴシック , MS PGothic , sans-serif;
+	font-size:12px;
+}
+img{
+	width:100%;
+}
+.saving{
+	width:100%;
+	height:32%;
+	margin-bottom:3%;
+}
+.hb_bn{
+	width:26px;
+	float:left;
+	margin:2% 0 0 2%;
+}
+.add_bn{
+	width:26px;
+	float:right;
+	margin:2% 2% 0 0;
+	
+}
+.savetext{
+	clear:both;
+	text-align:center;
+	color:#fff;
+	font-size:20px;
+}
+.savemoney{
+	text-align:center;
+	font-size:50px;
+	color:#fff;
+	margin:0 auto 20px auto;
+}
+.history{
+	width:40%;
+	margin:0 auto;
+	font-size:14px;
+	padding:10px;
+	border:2px solid #fff;
+	font-size:#fff;
+	text-align:center;
+}
+.history a,.history a:hover,.history a:visited,.history a:link{
+	color:#fff;
+	display:block;
+}
+.canuse{
+	width: 90%;
+	
+	height: 20%;
+	border-radius:5px;
+	margin:0 auto 3% auto;
+	background-color:#4a93c2;
+	opacity:0.9;
+	padding:2%;
+}
+.cantext{
+	font-size:14px;
+	padding-bottom:2%;
+	border-bottom:2px solid #fff;
+	color:#fff;
+	
+}
+
+.canmoney{
+
+	text-align:center;
+	font-size:40px;
+	color:#fff;
+	
+}
+.used{
+	width: 90%;
+	
+	height: 37%;
+	border-radius:5px;
+	padding:2%;
+	margin:0 auto;
+	background-color:#4a93c2;
+	opacity:0.9;
+}
+.usedtext{
+	font-size:14px;
+	padding-bottom:2%;
+	border-bottom:2px solid #fff;
+	color:#fff;
+	
+}
+.usedtext a,.usedtext a:visited,.usedtext a:link{
+	color:#fff;
+}
+.can_month{
+	margin-top:12px;
+	margin-bottom:0px;
+	font-size:16px;
+	text-align:center;
+	color:#fff;
+}
+.spendmoney{
+
+	text-align:center;
+	font-size:40px;
+	color:#fff;
+	
+}
+.spend_month{
+	margin-top:12px;
+	
+	font-size:16px;
+	text-align:center;
+	color:#fff;
+}
+.detail_spend{
+	width:94%;
+	margin:0 auto;
+	color:#fff;
+	font-size:14px;
+	padding:10px 0;
+	border-bottom:1px dotted #fff;
+}
+.detail_waste{
+	clear:both;
+	width:94%;
+	margin:0 auto;
+	color:#fff;
+	font-size:14px;
+	padding:10px 0;
+	border-bottom:1px dotted #fff;
+}
+.detail_investment{
+	clear:both;
+	width:94%;
+	margin:0 auto;
+	color:#fff;
+	font-size:14px;
+	padding:10px 0;
+	
+}
+#btn{
+        display:block;
+       
+        cursor: pointer;
+    }
+ 
+    #overlay{
+        display: none;
+        width: 100%;
+        height:100vh;
+        text-align: center;
+        position: fixed;
+        top: 0;
+        z-index: 100;
+  
+        background: url(../image/back.jpg) no-repeat rgba(0,0,0,0.8);
+    }
+ 
+    #text{
+        font-size: 40px;
+        color: #eee;
+        padding-top: 400px;
+        vertical-align: middle;
+        font-weight: bold;
+    }
+ 
+    #close{
+        cursor: pointer;
+        margin-bottom: 30%;
+    }
+    .kind{
+	font-family:Avenir , Open Sans , Helvetica Neue , Helvetica , Arial , Verdana , Roboto , 游ゴシック , Yu Gothic , 游ゴシック体 , YuGothic , ヒラギノ角ゴ Pro W3 , Hiragino Kaku Gothic Pro , Meiryo UI , メイリオ , Meiryo , ＭＳ Ｐゴシック , MS PGothic , sans-serif;    font-size: 20px;
+    color: #fff;
+    background-color:rgba(72,72,72,0.4);
+    padding-top:15px;
+	padding-bottom:15px;
+	position: absolute;
+ 	margin-top:25%;
+	
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+
+	left: 3%;
+	margin-right: 3%;
+	width: 88%;
+	margin-left: 0;
+	padding-left: 3%;
+	padding-right: 3%;
+	}
+    
+
+    .add_menu{
+
+	width:70%;
+	margin:10% auto;
+	font-size:16px;
+	padding:15px;
+	border:2px solid #fff;
+	border-radius:5px;
+	font-size:#fff;
+	text-align:center;
+	background-color: #3498db;
+	
+	}
+	.add_menu a,.add_menu a:hover,.add_menu a:visited,.add_menu a:link{
+	color:#fff;
+	display:block;
+	}
+	.back_bn{
+	width:26px;
+	margin:2% 0 0 2%;
+}
+p.thead{
+	width: 86%;
+	padding: 10px;
+	margin: 0 auto;
+	background: #fff;
+	color:#3498db;
+	font-weight: bold;
+	font-size: 16px;
+	border-radius: 7px;
+}
+p.tin{
+	width: 90%;
+	padding: 10px;
+	margin: 0 auto;
+	font-size: 16px;
+	color: #fff;
+}
+p.delete{
+	text-align: right;
+	font-size: 16px;
+	color: #fff;
+	margin-right: 3%;
+	text-decoration: none;
+}
+p.delete a:link,p.delete a:visited{
+	color: #fff;
+}
+@media screen and (min-width: 769px){
+	.kind{
+		margin-top:5%;
+	}
+}
+@media screen and (min-width:560px) and (max-width: 769px){
+	.kind{
+		margin-top:10%;
+	}
+
+}

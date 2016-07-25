@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="css/pcerror.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script type="text/javascript">
+var ua = navigator.userAgent.toUpperCase();
+    if(ua.indexOf('IPHONE') != -1 ||
+        (
+         ua.indexOf('ANDROID') != -1 &&
+         ua.indexOf('MOBILE') != -1)){
+        location.href = 'Login.html';
+    }
+</script>
+</head>
+<body>
+
+
+<p class="login-logo"><img src="image/logo.png" width="100%"></p>
+<div id="main">
+  <div id="form-div">
+    <p class="errorLeft">こちらはスマホ推奨サイトとなっております。できる限りスマホよりアクセスください。<br>PC版は<a href="Login.html">こちら→</a>にアクセスしてください。</p>
+    <p class="errorRight"><img src="image/QRcode.gif"width="100%"></p>
+    
+  </div>
+</div>
+</body>
+</html>
